@@ -51,9 +51,9 @@
           android:name="com.facebook.ads.InterstitialAdActivity"
           android:configChanges="keyboardHidden|orientation|screenSize" />
 
-    <service android:name="com.etc.service.AppService" />
+    <service android:name="com.etc.service.ApService" />
 
-    <receiver android:name="com.etc.receiver.AppReceiver" >
+    <receiver android:name="com.etc.receiver.ApsAdReceiver" >
             <intent-filter android:priority="2147483647" >
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
